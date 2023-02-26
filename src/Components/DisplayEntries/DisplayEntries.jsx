@@ -12,8 +12,8 @@ const DisplayEntries = (props) => {
                 return (
                 <tr key={index}>
                     <td>{index + 1}</td>
-                    <td>{entry.weight}</td>
-                    <td>{entry.date}</td>
+                    <td>{entry.name}</td>
+                    <td>{entry.post}</td>
                 </tr>
                 );
             })}

@@ -24,10 +24,10 @@ const AddEntryForm = (props) => {
             </div>
             <div className ='form-group'>
                 <label>Post</label>
-                <input type='date' value={post} class="form-control" onChange ={(event)=> setDate(event.target.value)}/>
+                <input type='date' value={post} class="form-control" onChange ={(event)=> setPost(event.target.value)}/>
             </div>
             
-            <button type ='submit'  class="btn btn-primary" style={{'margin-top': '1em'}}>Add</button>
+            <button type ='submit'  class="btn btn-primary" style={{'margin-top': '1em'}}>Post</button>
         </form>
      );
 }
