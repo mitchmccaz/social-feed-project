@@ -5,7 +5,7 @@ import './app.css';
 
 function App() {
 
-  const [entries, setEntries] = useState([{name:"Dev", post:"I like sandwiches", date:"04-21-2022"}, {name:"JJ", post:"Me too", date:"04-21-2022"}, {name:"Megan", post:"I hate sandwiches", date:"04-21-2022"}])
+  const [entries, setEntries] = useState([{name:"David Lagrange", post:"I love playing guitar. Does anyone want to play with me?", date:"04-21-2022"}, {name:"JJ Vega", post:"Its April fools Day! Dislike if you really like it!", date:"04-21-2022"}, {name:"Nevin Seibel", post:"My Rubik's cube is fully charged and ready for battle. Right after i eat my meal that has appeared from the magical hand from behind my curtain.", date:"04-21-2022"}])
 
   function addNewEntry(entry){
     let tempEntries =[...entries, entry];
